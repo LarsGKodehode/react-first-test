@@ -6,32 +6,7 @@
   --spacing-medium: 4em;
   --spacing-large: 6em;
 
-  /* PALETTES */
-  /* bright theme */
-  --palette-bright-primary-400: ; /* brighter */
-  --palette-bright-primary-500: #5D187E; /* base */
-  --palette-bright-primary-600: ; /* darker */
-
-  --palette-bright-primary-400-text: ; /* brighter */
-  --palette-bright-primary-500-text: #00D0FD; /* base */
-  --palette-bright-primary-600-text: ; /* darker */
-  
-  --palette-bright-secondary-400: ; /* brighter */
-  --palette-bright-secondary-500: #E0B45A; /* base */
-  --palette-bright-secondary-600: ; /* darker */
-
-  --palette-bright-secondary-400-text: ; /* brighter */
-  --palette-bright-secondary-500-text: #003340; /* base */
-  --palette-bright-secondary-600-text: ; /* darker */
-
-  --palette-bright-tertiary-400: ; /* brighter */
-  --palette-bright-tertiary-500: #41ED9B; /* base */
-  --palette-bright-tertiary-600: ; /* darker */
-
-  --palette-bright-tertiary-400-text: ; /* brighter */
-  --palette-bright-tertiary-500-text: #001820; /* base */
-  --palette-bright-tertiary-600-text: ; /* darker */
-
+  /* PALETTES Constants */
   --palette-success-500: #27B1E0; /* base success */
 
   --palette-warning-500: ; /* base warning */
@@ -45,6 +20,34 @@
   --palette-black: #000000; /* constant */
 }
 
+/* PALETTE THEMES */
+body[data-theme = "bright"] {
+  /* bright theme */
+  --palette-primary-400: ; /* brighter */
+  --palette-primary-500: #5D187E; /* base */
+  --palette-primary-600: ; /* darker */
+
+  --palette-primary-400-text: ; /* brighter */
+  --palette-primary-500-text: #00D0FD; /* base */
+  --palette-primary-600-text: ; /* darker */
+  
+  --palette-secondary-400: ; /* brighter */
+  --palette-secondary-500: #E0B45A; /* base */
+  --palette-secondary-600: ; /* darker */
+
+  --palette-secondary-400-text: ; /* brighter */
+  --palette-secondary-500-text: #003340; /* base */
+  --palette-secondary-600-text: ; /* darker */
+
+  --palette-tertiary-400: ; /* brighter */
+  --palette-tertiary-500: #41ED9B; /* base */
+  --palette-tertiary-600: ; /* darker */
+
+  --palette-tertiary-400-text: ; /* brighter */
+  --palette-tertiary-500-text: #001820; /* base */
+  --palette-tertiary-600-text: ; /* darker */
+}
+
 /* Site wide styling */
 * {
   /* Typography */
@@ -54,7 +57,15 @@
   box-sizing: border-box;
 }
 
+/* Screen tweaks */
 html, body {
   /* Getting rid of unwanted margins */
   margin: 0px;
+
+  /* Use all the real estate */
+  height: 100%;
 }
+#root, .App {
+  height: 100%;
+}
+

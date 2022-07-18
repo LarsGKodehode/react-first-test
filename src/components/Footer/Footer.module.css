@@ -1,0 +1,6 @@
+.footer-container {
+  padding: var(--spacing-small) var(--spacing-medium);
+  margin-top: auto;
+
+  background-color: var(--palette);
+}

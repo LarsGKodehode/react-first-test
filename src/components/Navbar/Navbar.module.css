@@ -1,6 +1,6 @@
 .navbar-container {
-  background: var(--palette-bright-primary-500);
-  background: linear-gradient(90deg, var(--palette-bright-primary-500) 25%, var(--palette-bright-secondary-500) 75%);
+  background: var(--palette-primary-500);
+  background: linear-gradient(90deg, var(--palette-primary-500) 25%, var(--palette-secondary-500) 75%);
   color: var(--palette-black);
 
   padding: var(--spacing-small) var(--spacing-medium);
