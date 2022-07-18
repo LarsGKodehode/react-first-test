@@ -2,5 +2,5 @@
   padding: var(--spacing-small) var(--spacing-medium);
   margin-top: auto;
 
-  background-color: var(--palette);
+  background-color: var(--palette-tertiary-500);
 }

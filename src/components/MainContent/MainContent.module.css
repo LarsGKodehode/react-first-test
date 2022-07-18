@@ -1,3 +1,5 @@
 .main-container {
   padding: var(--spacing-small) var(--spacing-medium);
+
+  background-color: var(--palette-secondary-500);
 }
