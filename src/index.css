@@ -1,0 +1,60 @@
+/* root variables */
+:root {
+  /* Spacing */
+  --spacing-tiny: .5em;
+  --spacing-small: 2em;
+  --spacing-medium: 4em;
+  --spacing-large: 6em;
+
+  /* PALETTES */
+  /* bright theme */
+  --palette-bright-primary-400: ; /* brighter */
+  --palette-bright-primary-500: #5D187E; /* base */
+  --palette-bright-primary-600: ; /* darker */
+
+  --palette-bright-primary-400-text: ; /* brighter */
+  --palette-bright-primary-500-text: #00D0FD; /* base */
+  --palette-bright-primary-600-text: ; /* darker */
+  
+  --palette-bright-secondary-400: ; /* brighter */
+  --palette-bright-secondary-500: #E0B45A; /* base */
+  --palette-bright-secondary-600: ; /* darker */
+
+  --palette-bright-secondary-400-text: ; /* brighter */
+  --palette-bright-secondary-500-text: #003340; /* base */
+  --palette-bright-secondary-600-text: ; /* darker */
+
+  --palette-bright-tertiary-400: ; /* brighter */
+  --palette-bright-tertiary-500: #41ED9B; /* base */
+  --palette-bright-tertiary-600: ; /* darker */
+
+  --palette-bright-tertiary-400-text: ; /* brighter */
+  --palette-bright-tertiary-500-text: #001820; /* base */
+  --palette-bright-tertiary-600-text: ; /* darker */
+
+  --palette-success-500: #27B1E0; /* base success */
+
+  --palette-warning-500: ; /* base warning */
+
+  --palette-error-500: #E00E03; /* base error */
+
+  --palette-neutral-500: #CBD4DF; /* base neutral */
+
+  --palette-white: #FFFFFF; /* constant */
+
+  --palette-black: #000000; /* constant */
+}
+
+/* Site wide styling */
+* {
+  /* Typography */
+  font-family: "Stint Ultra Condensed", sans-serif;
+
+  /* Saner layout defaults */
+  box-sizing: border-box;
+}
+
+html, body {
+  /* Getting rid of unwanted margins */
+  margin: 0px;
+}
