@@ -1,4 +1,4 @@
-import logo from '../../assets/logo/logo.svg';
+import logo from '/public/logo.svg';
 
 import styles from './Navbar.module.css';
 
